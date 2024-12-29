@@ -1,0 +1,22 @@
+<html>
+    <h1>
+        Enter values and see magic
+    </h1>
+    <body>
+        <form method="post">
+
+            <input type="text" placeholder="Temperature" required="required" name="Temperature"><br>
+            <input type="text" placeholder="RH" required="required" name="RH"><br>
+            <input type="text" placeholder="Ws" required="required" name="Ws"><br>
+            <input type="text" placeholder="Rain" required="required"name="Rain"><br>
+            <input type="text" placeholder="FFMC" required="required" name="FFMC"><br>
+            <input type="text" placeholder="DMC" required="required" name="DMC"><br>
+            <input type="text" placeholder="ISI" required="required" name="ISI"><br>
+            <input type="text" placeholder="Classes" required="required" name="Classes"><br>
+            <input type="text" placeholder="Region" required="required" name="Region"><br>
+            <button type="submit",name='submit'> Predict </button>
+        </form>
+
+        <b> THE PREDICTED FWI IS {{results}}</b>
+    </body>
+</html>
